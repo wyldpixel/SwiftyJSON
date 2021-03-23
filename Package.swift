@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "SwiftyJSON",
     products: [
-        .library(name: "SwiftyJSON", targets: ["SwiftyJSON"])
+        .library(name: "SwiftyJSON", type: .dynamic, targets: ["SwiftyJSON"])
     ],
     targets: [
         .target(name: "SwiftyJSON", dependencies: []),
